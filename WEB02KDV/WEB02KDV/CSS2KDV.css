@@ -1,2 +1,8 @@
-﻿body {
+﻿a {
+    margin:50px;
+    color:red;
+}
+
+img {
+    margin: 25px;
 }

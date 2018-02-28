@@ -19,7 +19,9 @@ namespace WEB02KDV
 
             res.Write("radio=" + req.Params["radio"] + "<br>" +
                       "check=" + req.Params["check"] + "<br>" + 
-                      "text=" + req.Params["text"] + "<br>" + "<br>");
+                      "text=" + req.Params["text"] + "<br>" +
+                      "but2=" + req.Params["but2"] + "<br>" +
+                      "button=" + req.Params["but"] + "<br>" + "<br>" );
 
             string[] keys = req.Headers.AllKeys;
 

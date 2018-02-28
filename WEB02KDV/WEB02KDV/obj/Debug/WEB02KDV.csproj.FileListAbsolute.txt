@@ -33,7 +33,7 @@ E:\3k2s\PIA\Labs\WEB02KDV\WEB02KDV\bin\Microsoft.AI.WindowsServer.xml
 E:\3k2s\PIA\Labs\WEB02KDV\WEB02KDV\bin\Microsoft.AI.Web.xml
 E:\3k2s\PIA\Labs\WEB02KDV\WEB02KDV\bin\ru\System.Web.Optimization.resources.dll
 E:\3k2s\PIA\Labs\WEB02KDV\WEB02KDV\bin\ru\Microsoft.AspNet.FriendlyUrls.resources.dll
-E:\3k2s\PIA\Labs\WEB02KDV\WEB02KDV\obj\Debug\WEB02KDV.csprojResolveAssemblyReference.cache
 E:\3k2s\PIA\Labs\WEB02KDV\WEB02KDV\obj\Debug\WEB02KDV.csproj.CoreCompileInputs.cache
 E:\3k2s\PIA\Labs\WEB02KDV\WEB02KDV\obj\Debug\WEB02KDV.dll
 E:\3k2s\PIA\Labs\WEB02KDV\WEB02KDV\obj\Debug\WEB02KDV.pdb
+E:\3k2s\PIA\Labs\WEB02KDV\WEB02KDV\obj\Debug\WEB02KDV.csprojResolveAssemblyReference.cache

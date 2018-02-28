@@ -19,26 +19,8 @@ namespace WEB02KDV
 
             res.AddHeader("X-KDV", "Kotovich Dmitry");
 
-            res.Write( "<HTML>" + 
-                            "<HEAD>" +
-                            "<TITLE> GETKDV </TITLE>" +
-                            "<LINK rel=\"stylesheet\" type=\"text/css\" href=\"CSS1KDV.css\">" +
-                            "<LINK rel=\"stylesheet\" type=\"text/css\" href=\"CSS2KDV.css\">" +
-                            "<SCRIPT src=\"JS1KDV.js\"></SCRIPT>" +
-                            "<SCRIPT src=\"JS2KDV.js\"></SCRIPT>" +
-                            "</HEAD>" + 
-                            "<H1>" + req.Params["getKDVparm"] + "</H1>" + 
-                            "<A href=\"HTMLKDV.html\">my page</A>" + "<br>" +
-                            "<IMG src=\"IMGKDV.jpg\">" + "<br>" + "<br>" + "<br>" +
-
-                            "<FORM method=\"POST\" action=\"post\">" + 
-                                "<input type=\"text\" name=\"text\">" + "<br>" +
-                                "<input type=\"checkbox\" checked name=\"check\">" + "<br>" +
-                                "<input type=\"radio\" checked name=\"radio\">" + "<br>" +
-                                "<input type=\"submit\">" +
-                            "</FORM>" +
-
-                       "</HTML>");
+            res.WriteFile("response_page.html");
+            res.Write("<H1>" + req.Params["getKDVparm"] + "</H1>");
         }
     }
 }

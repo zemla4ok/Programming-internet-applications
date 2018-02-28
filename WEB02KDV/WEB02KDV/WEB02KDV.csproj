@@ -149,6 +149,7 @@
     <Content Include="IMGKDV.jpg" />
     <Content Include="JS1KDV.js" />
     <Content Include="JS2KDV.js" />
+    <Content Include="response_page.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
