@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Web;
+using System.Xml.Serialization;
 
 namespace WEB5B
 {
@@ -20,14 +22,12 @@ namespace WEB5B
 
             int n = Convert.ToInt32(req.Headers["X-Rand-N"]);
             int amount = rand.Next(5, 10);
-
             List<int> list = new List<int>();
             for (int i = 0; i < amount; i++)
             {
                 list.Add(rand.Next((-1) * n, n));
             }
 
-            
             string result = "";
             result += "<?xml version='1.0'?><numbers>";
             for (int i = 0; i < list.Count; i++)

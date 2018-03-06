@@ -6,36 +6,45 @@
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 
     <script>
-        function getRand() {
+       /* function sendXML() {
+            //let n = document.getElementById("X-Rand-N").value;
             alert('qwe');
-            let n = document.getElementById('n').value;
+            /*$.ajax({
+                type: 'POST',
+                url: '/post5b',
+                headers: {
+                    'X-Rand-N': n
+                }
+            }).done(function (data, status, req) {
+                alert('asd');
+                
+            })
+        }*/
+        function getRand() {
+            let n = document.getElementById("X-Rand-N").value;
             $.ajax({
                 type: 'POST',
                 url: '/post5b',
                 headers: {
                     'X-Rand-N': n
                 }
-            }).done(function (data, status, request) {
-                let str = request.getResponseHeader('qwe');
-                let xmlDoc = $.parseXML(str);
-                let xml = $(xmlDoc);
-                let arr = xml.find('number');
-                alert(arr);
-                //for (let i = 0; i < arr.length; i++) {
-                //    alert(arr[i]);
-                //    //document.getElementById('result').value += arr[i];
-                //    //document.getElementById('result').value += '; ';
-                //}
+            }).done(function (data, status, req) {
+                let xml = req.getResponseHeader('qwe');
+                let str = $.parseXML(xml);
+                let arr = str.getElementsByTagName('number');
+                for (let i = 0; i < arr.length; i++) {
+                    document.getElementById('result').value += arr[i].innerHTML + '; ';
+                }
             })
         }
     </script>
 </head>
 <body>
     <form>
-        <input type="text" value="n:" readonly="readonly"/>
-        <input type="text" id="n" /><br />
+        <input type="text" readonly="readonly" value="n:" />
+        <input type="text" id="X-Rand-N" /><br>
         <input type="button" value="rand" onclick="getRand()" /><br />
-        <input type="text" value="result: " readonly="readonly" />
+        <input type="text" value="result:" />
         <input type="text" id="result" />
     </form>
 </body>

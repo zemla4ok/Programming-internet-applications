@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WEB5B", "WEB5B\WEB5B.csproj", "{C56C2871-072B-498F-A61F-44B0E70DC097}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WEB5B", "WEB5B\WEB5B.csproj", "{97338149-7D85-4A5D-AF9D-0BA6E3FC83F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C56C2871-072B-498F-A61F-44B0E70DC097}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C56C2871-072B-498F-A61F-44B0E70DC097}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C56C2871-072B-498F-A61F-44B0E70DC097}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C56C2871-072B-498F-A61F-44B0E70DC097}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97338149-7D85-4A5D-AF9D-0BA6E3FC83F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97338149-7D85-4A5D-AF9D-0BA6E3FC83F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97338149-7D85-4A5D-AF9D-0BA6E3FC83F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97338149-7D85-4A5D-AF9D-0BA6E3FC83F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {42D31E41-6B2B-4952-9393-FFC318CC0109}
+		SolutionGuid = {A3B28736-4CC1-4F46-8945-2D815198340B}
 	EndGlobalSection
 EndGlobal
