@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WEB5A", "WEB5A\WEB5A.csproj", "{5AD0C214-2732-40E4-B389-664A849075EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AD0C214-2732-40E4-B389-664A849075EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AD0C214-2732-40E4-B389-664A849075EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AD0C214-2732-40E4-B389-664A849075EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AD0C214-2732-40E4-B389-664A849075EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69E1DB51-55AD-4E30-BF41-EAFCAAB4B932}
+	EndGlobalSection
+EndGlobal
